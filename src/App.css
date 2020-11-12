@@ -1,0 +1,70 @@
+.main{
+  background-color: blueviolet;
+  padding:0px;
+  margin-top: 0;
+  background-size: 3000px;
+  height: 1000px;
+}
+.headingmain{
+  color: #30bd35;
+  font-size: 120px;
+  text-align: center;
+  padding-bottom: -20px;
+  margin-top:0;
+  margin-bottom: 0;
+}
+.head{
+  color: whitesmoke;
+  font-size: 40px;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 2px;
+}
+.button{
+  background-color: #30bd35; /* Green */
+  color: white;
+  padding: 10px 27px;
+  text-align: center;
+  font-size: 20px;
+  align-items: center;
+  border-radius: 5px;
+  transition-duration: 0.2s;
+  justify-content: center;
+  margin: 0;
+  position: absolute;
+  left: 46%;
+  margin-top: 10px;
+}
+
+.button:hover {
+  background-color: #65c468; /* Green */
+  color: white;
+  offset: 5;
+  cursor: pointer;
+}
+.fileup{
+  font-size: 17px;
+  color: whitesmoke;
+  text-align: center;
+  align-items: center;
+  margin: 0;
+  position: absolute;
+  left: 43%;
+}
+.head2{
+  color: whitesmoke;
+  text-align: center;
+}
+.list{
+  background-color: bisque;
+  font-size: 20px;
+  text-align: center;
+  background-size: 10px;
+}
+.head3{
+  color: gray;
+  text-align: center;
+  font-size: 20px;
+}
+
+
