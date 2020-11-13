@@ -125,7 +125,6 @@ render(){
         <br/>
         <form>
           <div >
-          <h2 className="head2" ><u>Step 1:</u></h2>
           <h2 className="head2">The first line of your document must contain the employee ID...</h2>
             <h2 className="head2">Choose a file and click upload button :</h2>
           <input type="file" className="fileup" name="file" onChange={this.onChangeHandler}/>
@@ -135,13 +134,13 @@ render(){
           <br/>
           <h2 className="head">_________________________________________________________________</h2>
 
-          <h2 className="head2"><u>Step 2:</u></h2>
           <h2 className="head2">Click classify file button to classify your file:</h2>
-          <button type="button" className="button" onClick={this.onClassifyHandler}>Classify File</button>
+          <button type="button" className="button2" onClick={this.onClassifyHandler}>Classify File</button>
           <br/>
           <br/>
           <br/>
           {this.state.showContents && <p className="list">
+          <h2 className = "head3"><u>File type and employee number</u></h2>
             <p>Employee ID: {empidbool}</p>
             {filetype}
             <h2 className = "head3"><u>Classified information inside your document:</u></h2>
@@ -167,7 +166,7 @@ render(){
             Car Registration :<input type = "checkbox" onChange={this.onRegRadio}/>
             <br/>
             <br/>
-            <button className="button" onClick={this.onClickStore}>Confirm and Store</button>
+            <button className="button3" onClick={this.onClickStore}>Confirm and Store</button>
             <br/>
             <br/>
             <br/>
