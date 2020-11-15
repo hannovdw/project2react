@@ -56,6 +56,9 @@ onClickHandler = () => {
        phonebool = 'Phone Number'
        reclick = "";
     }
+    if(classjson.phone === false){
+      reclick = "";
+   }
     if(classjson.email === true) emailbool = 'Email Adress'
     if(classjson.id === true) idbool = 'ID Number'
     if(classjson.carreg === true) carregbool = 'Car Registration Number'
