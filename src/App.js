@@ -41,7 +41,7 @@ onChangeHandler=event=>{
 onClickHandler = () => {
   const data = new FormData() 
   data.append('file', this.state.selectedFile)
-  axios.post("https://boiling-lowlands-11973.herokuapp.com/api/postfile", data, { 
+  axios.post("http://localhost:3000/api/postfile", data, { 
     // receive two    parameter endpoint url ,form data
   })
   .then(res => { // then print response status
@@ -106,7 +106,7 @@ onPhoneRadio = () => {
 // STORE TO DB BUTTON HANDLER......................
 onClickStore = () => {
   var data = {"phone":phonewrong, "id":idwrong, "email": emailwrong, "carreg":carregwrong, "empid":empidbool, "filetype": filetypeext};
-  axios.post("https://boiling-lowlands-11973.herokuapp.com/api/storedata", data, { 
+  axios.post("http://localhost:3000/api/storedata", data, { 
     // receive two    parameter endpoint url ,form data
   })
   .then(res => {
